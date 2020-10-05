@@ -1,0 +1,32 @@
+#slideshow-holder {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+#slideshow {
+    position: absolute;
+    top: 94px;
+    min-width: 50vw;
+    max-width: 60vw;
+    
+}
+
+.student {
+    border-radius: 100%;
+    width: 4.8vw;
+}
+
+.student:hover {
+    opacity: 20%;
+    transition-duration: 0.5s;
+}
+
+#never {
+    position: relative;
+    font-family: 'Limelight', cursive;
+    font-size: 1vw;
+    width: 40vw;
+    margin-left: 10vw;
+}

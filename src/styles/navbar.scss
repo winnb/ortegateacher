@@ -1,0 +1,89 @@
+.nav-bar {
+    background-color: rgb(140,140,140);
+    height: 76px;
+    font-size: 13px;
+    display : flex;
+    align-items : center;
+    padding-top: 0.4vw;
+    padding-bottom: 0.3vw;
+    padding-left: 17vw;
+  }
+
+#science {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 23px;
+}
+
+#tingz {
+    font-family: 'Marck Script', cursive; 
+    margin-top: -10px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.navbar-block {
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    margin-top: -20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(180, 244, 246);
+    margin-left: 110px;
+}
+
+a:hover {
+    color: rgb(246, 212, 251);
+    transition-duration: 0.33s;
+}
+
+#delay-warning {
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 13px;
+    position: absolute;
+    margin-left: 11vw;
+    padding-left: 200px;
+    top: 60px;
+    height: 20px;
+    letter-spacing: 1.5px;
+}
+
+#person {
+    width: 1vw;
+    margin-top: -1.7vw;
+    margin-left: 8vw;
+}
+#person:hover {
+    cursor: pointer;
+}
+
+#login {
+    font-family: 'Peddana', serif;
+    font-size: 0.9vw;
+    font-style: italic;
+    color: rgb(202, 182, 1);
+    margin-top: -1.5vw;
+    margin-left: 0.5vw;
+}
+#login:hover {
+    cursor: pointer;
+}
+
+#purse {
+    width: 1.2vw;
+    margin-top: -1.7vw;
+    margin-left: 0.6vw;
+}
+#purse:hover {
+    cursor: pointer;
+}
+
+#cart-num {
+    font-size: 0.5vw;
+    font-style: italic;
+    color: white;
+    margin-top: -1.4vw;
+    margin-left: -0.75vw;
+}

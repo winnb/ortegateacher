@@ -1,0 +1,41 @@
+.gallery-main {
+    left: 10vw;
+}
+
+.photo-button {
+    background-color: rgb(60,60,60);
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    width: 65vw;
+    margin-top: 2vw;
+    border-style: hidden;
+    border-radius: 0;
+}
+
+.media-image {
+    width: 20vw;
+}
+
+.gallery {
+    margin-left: 35vw;
+}
+
+.gallery-control--prev {
+    background-color:rgba(0,0,0,0);
+    border-style: hidden;
+    border-color: rgba(0,0,0,0);
+    margin-top: 13vw;
+    margin-left: 5vw;
+    transform: scale(2);
+    position: absolute;
+}
+
+.gallery-control--next {
+    background-color:rgba(0,0,0,0);
+    border-style: hidden;
+    border-color: rgba(0,0,0,0);
+    margin-top: 13vw;
+    margin-left: 57vw;
+    transform: scale(2);
+    position: absolute;
+}
